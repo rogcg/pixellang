@@ -1,0 +1,28 @@
+( def main [ ]
+	( int a1 a2 a3 )
+	( str s1 s2 )
+	
+	( = a1 10 )
+	( = a2 a1 )
+	
+	( = a1 ( - a2 10 ) )
+	( = s1  "house" )
+	( real r1 r2 r3 )
+	( = r1 ( + ( - r3 r2 ) r3 ) ) 
+	( = r2 10.25 )
+	( if ( > a1 a2 )
+		( = a3 2 )
+		(
+			( = a3 20 )
+			( = a2 10 )
+		)
+	)
+	( while ( <= a3 100 ) 
+		( = a3 ( + a3 2 ) ) 
+		( = a1 100 ) 
+	)
+	( read a1 )
+	( read a2 )
+	( print "final test" )
+
+) 
