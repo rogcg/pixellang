@@ -1,0 +1,11 @@
+( def principal [ ]  
+
+	( int a1 ) 	
+	( real r1 r2 a2 )
+	( str s1 )
+	( = a1 10 )
+	( = a2 ( - a1 20.5 ) )
+	( = s1 "Test
+	( read s1 )
+	
+)
