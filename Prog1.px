@@ -1,0 +1,25 @@
+( def main [ ]
+	
+	( int a1 a2 )
+	( real r2 r4 r3 )
+	( str s1 s2 name ) 
+	( = a1 20 )
+	( = r2 ( + r3 45.5 ) )
+	
+	( if ( > r4 12.2 ) 
+		(
+			( = a1 2 )
+			( = r3 34.2 )
+		)
+		( = a1 3 )
+	)
+	
+	( while ( < 23.2 r4 ) 
+		( = a1 2 )
+		( = r3 34.8 )	
+	)
+	
+	( read a2 )
+	
+	( print "Test" )
+)
